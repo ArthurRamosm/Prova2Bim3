@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\Prova2Bim.Dominio\Prova2Bim.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

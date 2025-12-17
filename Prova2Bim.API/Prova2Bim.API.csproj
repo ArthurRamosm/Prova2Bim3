@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Prova2Bim.Application\Prova2Bim.Application.csproj" />
+    <ProjectReference Include="..\Prova2Bim.Dominio\Prova2Bim.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>
