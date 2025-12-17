@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Dominio", "01 - Dominio", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova2Bim.Dominio", "Prova2Bim.Dominio\Prova2Bim.Dominio.csproj", "{D4E5DF6B-697B-4563-A472-CE98A62A3133}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Repositorio", "02 - Repositorio", "{F16DEF91-415C-4F3D-8106-7832EB20493F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova2Bim.Data", "Prova.Data\Prova2Bim.Data.csproj", "{E42F6CA1-9E5E-43BF-8BE7-E197F449ADE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Application", "03 - Application", "{8D7BD409-89ED-4236-9B58-0A421E167F46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova2Bim.Application", "Prova2Bim.Application\Prova2Bim.Application.csproj", "{21C87006-B5F3-4A44-88F8-5F504439CA95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Api", "04 - Api", "{9FC93B4D-8875-467F-B118-EF8B479DE251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova2Bim.API", "Prova2Bim.API\Prova2Bim.API.csproj", "{FFBC16AF-0DA5-40B8-9A70-5DC3B13D0D88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4E5DF6B-697B-4563-A472-CE98A62A3133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E5DF6B-697B-4563-A472-CE98A62A3133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E5DF6B-697B-4563-A472-CE98A62A3133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E5DF6B-697B-4563-A472-CE98A62A3133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42F6CA1-9E5E-43BF-8BE7-E197F449ADE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42F6CA1-9E5E-43BF-8BE7-E197F449ADE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42F6CA1-9E5E-43BF-8BE7-E197F449ADE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42F6CA1-9E5E-43BF-8BE7-E197F449ADE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C87006-B5F3-4A44-88F8-5F504439CA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C87006-B5F3-4A44-88F8-5F504439CA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C87006-B5F3-4A44-88F8-5F504439CA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C87006-B5F3-4A44-88F8-5F504439CA95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBC16AF-0DA5-40B8-9A70-5DC3B13D0D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBC16AF-0DA5-40B8-9A70-5DC3B13D0D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBC16AF-0DA5-40B8-9A70-5DC3B13D0D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBC16AF-0DA5-40B8-9A70-5DC3B13D0D88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4E5DF6B-697B-4563-A472-CE98A62A3133} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E42F6CA1-9E5E-43BF-8BE7-E197F449ADE0} = {F16DEF91-415C-4F3D-8106-7832EB20493F}
+		{21C87006-B5F3-4A44-88F8-5F504439CA95} = {8D7BD409-89ED-4236-9B58-0A421E167F46}
+		{FFBC16AF-0DA5-40B8-9A70-5DC3B13D0D88} = {9FC93B4D-8875-467F-B118-EF8B479DE251}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A051D79-076A-4CF0-80A8-72802FB78462}
+	EndGlobalSection
+EndGlobal

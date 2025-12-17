@@ -1,0 +1,6 @@
+@Prova2Bim.API_HostAddress = http://localhost:5262
+
+GET {{Prova2Bim.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
